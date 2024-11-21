@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "H7zVDO7qBVVpzNIGLy3/cc9gAQO8YxE9N8lmzT1jXaA=",
+  "Source": "JobBoardWebApi",
+  "BasePath": "_content/JobBoardWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

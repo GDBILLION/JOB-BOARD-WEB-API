@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "JobBoardWebApi.Controllers.JobsController",
+    "Method": "GetAllJobs",
+    "RelativePath": "api/Jobs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JobBoardWebApi.Controllers.JobsController",
+    "Method": "GetJobsById",
+    "RelativePath": "api/Jobs/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JobBoardWebApi.Controllers.JobsController",
+    "Method": "CreateJob",
+    "RelativePath": "api/Jobs/create-job",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobDto",
+        "Type": "JobBoardWebApi.DTOs.Jobs.JobCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JobBoardWebApi.Controllers.JobsController",
+    "Method": "DeleteJob",
+    "RelativePath": "api/Jobs/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JobBoardWebApi.Controllers.JobsController",
+    "Method": "UpdateJob",
+    "RelativePath": "api/Jobs/update/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "jobDto",
+        "Type": "JobBoardWebApi.DTOs.Jobs.JobCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
